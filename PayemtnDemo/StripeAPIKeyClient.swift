@@ -28,7 +28,7 @@ class StripeAPIKeyClient: NSObject, STPCustomerEphemeralKeyProvider {
     }
     
     static let sharedKeyClient = StripeAPIKeyClient()
-    var baseURLString: String? = ""
+    var baseURLString: String? = "https://rocketrides.io"
     var baseURL: URL? {
         if let urlString = self.baseURLString, let url = URL(string: urlString) {
             return url

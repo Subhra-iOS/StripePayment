@@ -240,6 +240,7 @@ extension ViewController : STPPaymentContextDelegate{
         let shippingMethod : PKShippingMethod = PKShippingMethod()
         shippingMethod.identifier = source
         shippingMethod.detail = paymentResult.paymentMethod.billingDetails?.address?.postalCode
+        let clientSecret : String = Stripe.defaultPublishableKey() ?? ""
         
         StripeAPIKeyClient.sharedKeyClient.createPaymentIntent(source: source, products: [Product(print: "Gift Card", price: 5)], shippingMethod: shippingMethod, country: paymentResult.paymentMethod.billingDetails?.address?.country, completion: { (result) in
             
