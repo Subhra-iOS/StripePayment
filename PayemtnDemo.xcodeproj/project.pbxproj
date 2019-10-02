@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		2A600AE223437003004DE37B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A600AE023437003004DE37B /* Main.storyboard */; };
 		2A600AE423437004004DE37B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A600AE323437004004DE37B /* Assets.xcassets */; };
 		2A600AE723437004004DE37B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A600AE523437004004DE37B /* LaunchScreen.storyboard */; };
+		2A600AEF2343903B004DE37B /* StripeAPIKeyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A600AEE2343903B004DE37B /* StripeAPIKeyClient.swift */; };
 		FAF28822AC19D54C88A6A29C /* Pods_PayemtnDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4214FA18A89CEFBB3C177D /* Pods_PayemtnDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		2A600AE323437004004DE37B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A600AE623437004004DE37B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A600AE823437004004DE37B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A600AEE2343903B004DE37B /* StripeAPIKeyClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeAPIKeyClient.swift; sourceTree = "<group>"; };
 		9F8408E58BF199DC371CD3B3 /* Pods-PayemtnDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayemtnDemo.release.xcconfig"; path = "Target Support Files/Pods-PayemtnDemo/Pods-PayemtnDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A1BF27AA0EF0A64039C769ED /* Pods-PayemtnDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayemtnDemo.debug.xcconfig"; path = "Target Support Files/Pods-PayemtnDemo/Pods-PayemtnDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		AA4214FA18A89CEFBB3C177D /* Pods_PayemtnDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayemtnDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +63,7 @@
 		2A600ADB23437003004DE37B /* PayemtnDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2A600AEE2343903B004DE37B /* StripeAPIKeyClient.swift */,
 				2A600ADC23437003004DE37B /* AppDelegate.swift */,
 				2A600ADE23437003004DE37B /* ViewController.swift */,
 				2A600AE023437003004DE37B /* Main.storyboard */,
@@ -85,7 +88,6 @@
 				A1BF27AA0EF0A64039C769ED /* Pods-PayemtnDemo.debug.xcconfig */,
 				9F8408E58BF199DC371CD3B3 /* Pods-PayemtnDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -205,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A600ADF23437003004DE37B /* ViewController.swift in Sources */,
+				2A600AEF2343903B004DE37B /* StripeAPIKeyClient.swift in Sources */,
 				2A600ADD23437003004DE37B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

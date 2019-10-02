@@ -16,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        STPTheme.default().accentColor = UIColor(named: "0093FF")
+        Stripe.setDefaultPublishableKey("pk_test_TYooMQauvdEDq54NiTphI7jx")
         // Override point for customization after application launch.
         return true
     }
